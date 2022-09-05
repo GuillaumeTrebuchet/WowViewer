@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{78a8cc29-27b9-42af-8dae-669bbd1b8e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Buffers">
+      <UniqueIdentifier>{a790a4b3-c9aa-4810-b382-cac9b8ad7db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shaders">
+      <UniqueIdentifier>{6d26f0d6-e953-429d-84dd-2706c23ebbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mystd">
+      <UniqueIdentifier>{0e6ab757-e118-445d-b072-91b57a45df89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Textures">
+      <UniqueIdentifier>{919f46af-5601-4775-955b-382539ea458f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Model">
+      <UniqueIdentifier>{469c7bc4-43f5-403a-bc0a-a2f62caa4b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Storage">
+      <UniqueIdentifier>{52495205-7ff0-4c86-8b4c-088045e8d342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DB">
+      <UniqueIdentifier>{c285828a-1dd8-4fb8-bb0a-e4a073f516b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{fc661161-1873-4daf-a3e6-3ba1bf274e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object">
+      <UniqueIdentifier>{acb71556-189d-4bb0-bab8-ce017a510c86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WowViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WSRenderer.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.hpp">
+      <Filter>Engine\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImmutableIndexBuffer.hpp">
+      <Filter>Engine\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImmutableVertexBuffer.hpp">
+      <Filter>Engine\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.hpp">
+      <Filter>Engine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="IWSStream.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.hpp">
+      <Filter>Engine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>mystd</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalFileStream.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WSResourceManager.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BlpTexture.hpp">
+      <Filter>Engine\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="IWSTexture.hpp">
+      <Filter>Engine\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="M2Model.hpp">
+      <Filter>Engine\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IWSModel.hpp">
+      <Filter>Engine\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M2Skin.hpp">
+      <Filter>Engine\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M2Anim.hpp">
+      <Filter>Engine\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.hpp">
+      <Filter>mystd</Filter>
+    </ClInclude>
+    <ClInclude Include="CascStorage.hpp">
+      <Filter>Engine\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="CascFile.hpp">
+      <Filter>Engine\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.hpp">
+      <Filter>Engine\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="dbc.hpp">
+      <Filter>Engine\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="db2.hpp">
+      <Filter>Engine\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureInstance.hpp">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>mystd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WowViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="db2.cpp">
+      <Filter>Engine\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="M2Model.cpp">
+      <Filter>Engine\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M2Anim.cpp">
+      <Filter>Engine\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WowViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WowViewer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="vs_debug.hlsl">
+      <Filter>Engine\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ps_debug.hlsl">
+      <Filter>Engine\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ps_debug2.hlsl">
+      <Filter>Engine\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="M2_vs.hlsl">
+      <Filter>Engine\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="M2_ps.hlsl">
+      <Filter>Engine\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
